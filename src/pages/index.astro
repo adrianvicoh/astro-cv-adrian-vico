@@ -1,15 +1,22 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 
-import cv from '../data/data.json';
-
+import cv from "../data/data.json";
 ---
 
 <Layout title="Inici">
-
-
-	<h1>Hola!</h1>
-
-	<h2>Nom: {cv.personal.nom}</h2>
-	
+	<style>
+		h1.principal {
+			font-weight: 100;
+			font-family: "Segoe UI", sans-serif;
+			text-align: center;
+			font-size: 5em;
+			color: rgb(182, 182, 182);
+		}
+	</style>
+	<div class="row">
+		<div class="col-12">
+			<h1 class="principal">{cv.personal.nom}</h1>
+		</div>
+	</div>
 </Layout>
