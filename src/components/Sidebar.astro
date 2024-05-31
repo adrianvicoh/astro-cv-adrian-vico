@@ -1,0 +1,13 @@
+---
+const { dades } = Astro.props;
+const { nom, telefon, data_naixement, adreça, població } = dades;
+---
+
+<div class="col-2 sidebar">
+    <img src="/img/foto.jpg" class="card-img-top" alt="foto" />
+    <h2>{nom}</h2>
+    <p><i class="bi bi-telephone-fill"></i> {telefon}</p>
+    <p><i class="bi bi-calendar2-day"></i> {data_naixement}</p>
+    <p><i class="bi bi-geo-alt-fill"></i> {adreça}</p>
+    <p><i class="bi bi-house-door-fill"></i> {població}</p>
+</div>
