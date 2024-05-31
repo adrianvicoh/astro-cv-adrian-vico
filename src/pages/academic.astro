@@ -1,11 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import AcademicComponent from "../components/Academic.astro";
+
+import cv from "../data/data.json";
 ---
 
 <Layout title="ACADEMIC">
+    <h1 class="principal">Academic</h1>
 
-
-	<h1>ACADEMIC</h1>
-
-	
+    <div class="row">
+        {cv.academic.map((estudi) => <AcademicComponent dades={estudi} />)}
+    </div>
 </Layout>

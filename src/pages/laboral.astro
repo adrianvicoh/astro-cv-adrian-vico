@@ -1,22 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Feina from '../components/Feina.astro';
+import Layout from "../layouts/Layout.astro";
+import Feina from "../components/Feina.astro";
 
-import cv from '../data/data.json';
-
+import cv from "../data/data.json";
 ---
 
 <Layout title="LABORAL">
-
-
-	<h1>LABORAL</h1>
-
+    <h1 class="principal">Laboral</h1>
 
     <div class="row">
-        {cv.laboral.map(feina => <Feina dades={feina} />)}
-
-
+        {cv.laboral.map((feina) => <Feina dades={feina} />)}
     </div>
-        
-	
 </Layout>

@@ -4,7 +4,10 @@ body {
     background-image: url("/img/background_black.jpg");
     background-attachment: fixed;
     background-size: cover;
+    font-family: "Roboto", sans-serif;
 }
+
+/****Navbar*****/
 
 .brand-custom {
     font-size: 2em;
@@ -16,8 +19,8 @@ body {
 
 .customNav a {
     color: grey;
-    
     font-family: "Roboto", sans-serif;
+    margin-right: 20px;
 }
 
 .customNav a:hover {
@@ -25,27 +28,50 @@ body {
 }
 
 .navTitle {
-    font-weight: 700;
+    font-weight: 500;
     color: white;
 }
 
 h1.principal {
     font-weight: 100;
     font-family: "Roboto", sans-serif;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 5em;
     color: rgb(182, 182, 182);
     border-bottom: 2px solid grey;
     padding-bottom: 20px;
 }
 
+/****Main content*****/
+
 div.mainContent {
     margin-top: 50px;
+    margin-left: 60px;
+}
+
+div.indexContent {
+    margin-top: 30px;
+    background-color: rgb(32, 32, 32);
+    color: lightgrey;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/****Sidebar*****/
+
+div.sidebar {
+    position: relative;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 8px;
 }
 
 .sidebar h2 {
     color:white;
+    margin-top: 50px;
     margin-bottom: 30px;
+    font-size: 25px;
 }
 
 .sidebar p {
@@ -54,10 +80,9 @@ div.mainContent {
 }
 
 .sidebar img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     object-fit: content;
     border-radius: 100px;
     border: 4px solid grey;
-    margin: 20px auto;
 }
