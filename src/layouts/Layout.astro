@@ -31,8 +31,8 @@ import cv from "../data/data.json";
 		<nav class="navbar navbar-expand-lg bg-black customNav">
 			<div class="container-md position-relative">
 				<a class="navbar-brand brand-custom" href="/"
-					><i class="bi bi-code-square"></i>
-					<span class="navTitle">A. Vico</span></a
+					><i class="bi bi-code-square pr-5"></i>
+					<span class="navTitle">Curriculum Vitae</span></a
 				>
 				<button
 					class="navbar-toggler"
@@ -72,11 +72,15 @@ import cv from "../data/data.json";
 		</nav>
 
 		<main>
-			<div class="container-md">
+			<div class="container-md ml-5">
 				<div class="row">
-					<Sidebar dades={cv.personal} />
-					<div class="col-10 mainContent">
-						<slot />
+					<div class="col-2">
+						<Sidebar dades={cv.personal} />
+					</div>
+					<div class="col-10">
+						<div class="mainContent">
+							<slot />
+						</div>
 					</div>
 				</div>
 			</div>

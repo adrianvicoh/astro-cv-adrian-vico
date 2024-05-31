@@ -1,23 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 
-import cv from '../data/data.json';
-
-
+import cv from "../data/data.json";
 ---
 
 <Layout title="Temps lliure">
-
-
-	<h1>Coses que m'agrada fer</h1>
-
-    <ul>
-        {cv.aficions.map(item => (
-            <li>
-                {item}
-            </li>
-        ))}
-    </ul>
-
-	
+    <h1 class="principal">Temps lliure</h1>
+    <div class="indexContent">
+        <ul>
+            {cv.aficions.map((item) => <li>{item}</li>)}
+        </ul>
+    </div>
 </Layout>

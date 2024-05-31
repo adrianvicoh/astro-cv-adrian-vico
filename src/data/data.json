@@ -1,59 +1,58 @@
 {
-    "personal": {
-      "nom": "Adrián Vico Hernández",
-      "telefon": "+34 691 56 58 74",
-      "data_naixement": "1995-01-13",
-      "adreça": "Isaac Albéniz, 24",
-      "població": "El Masnou"
+  "personal": {
+    "nom": "Adrián Vico Hernández",
+    "telefon": "+34 691 56 58 74",
+    "data_naixement": "1995-01-13",
+    "adreça": "Isaac Albéniz, 24",
+    "població": "El Masnou"
+  },
+  "academic": [
+    {
+      "nom": "CFGS Disseny i Edició de Publicacions Impreses i Multimèdia",
+      "data": "2017-2019",
+      "lloc": "IES Escola del Treball de Barcelona",
+      "slug": "cfgs-disseny-impresio-edt"
     },
-    "academic": [
-      {
-        "nom": "CFGS Disseny i Edició de Publicacions Impreses i Multimèdia",
-        "data": "2017-2019",
-        "lloc": "IES Escola del Treball de Barcelona",
-        "slug": "cfgs-disseny-impresio-edt"
-      },
-      {
-        "nom": "CFGS Disseny i Gestió de la Producció Gràfica",
-        "data": "2019-2020",
-        "lloc": "IES Escola del Treball de Barcelona",
-        "slug": "cfgs-produccio-grafica-edt"
-      },
-      {
-        "nom": "CFGS Desenvolupament de Aplicacions Web",
-        "data": "2021-2024",
-        "lloc": "IES Escola del Treball de Barcelona",
-        "slug": "cfgs-desenvolupament-web-edt"
-      },
-      {
-        "nom": "Curs de JavaScript Full Stack",
-        "data": "2024",
-        "lloc": "Fundació Esplai",
-        "slug": "curs-javascript-full-stack"
-      }
-    ],
-    "laboral": [
-      {
-        "posicio": "Responsable de producció gràfica i maquetador",
-        "empresa": "Ediciones Carena",
-        "data": "2018-2023",
-        "descripcio": "Supervisió del procés de producció editorial. Gestió de tasques i fases d'elaboració d'arxius d'impremta. Control de qualitat i logística des dels centres de producció. Maquetació i compaginació de textos de llibres. Disseny i preparació de cobertes. Atenció al client i comunicació amb els autors. Venda de llibres a punts de venda. Organització desdeveniments i presentacions.",
-        "slug": "responsable-produccio-grafica-maquetador"
-      },
-      {
-        "posicio": "Becari de Desenvolupament Web",
-        "empresa": "wwwarcelona",
-        "data": "2024",
-        "descripcio": "Disseny, maquetació i programació de webs amb Wordpress. Anàlisi i correcció de projectes web.",
-        "slug": "becari-desenvolupament-web"
-      }
-    ],
-    "aficions": [
-      "Història",
-      "Natura",
-      "Cinema",
-      "Videojocs",
-      "Comuptació"
-    ]
-  }
-  
+    {
+      "nom": "CFGS Disseny i Gestió de la Producció Gràfica",
+      "data": "2019-2020",
+      "lloc": "IES Escola del Treball de Barcelona",
+      "slug": "cfgs-produccio-grafica-edt"
+    },
+    {
+      "nom": "CFGS Desenvolupament de Aplicacions Web",
+      "data": "2021-2024",
+      "lloc": "IES Escola del Treball de Barcelona",
+      "slug": "cfgs-desenvolupament-web-edt"
+    },
+    {
+      "nom": "Curs de JavaScript Full Stack",
+      "data": "2024",
+      "lloc": "Fundació Esplai",
+      "slug": "curs-javascript-full-stack"
+    }
+  ],
+  "laboral": [
+    {
+      "posicio": "Responsable de producció gràfica i maquetador",
+      "empresa": "Ediciones Carena",
+      "data": "2018-2023",
+      "descripcio": "Supervisió del procés de producció editorial. Gestió de tasques i fases d'elaboració d'arxius d'impremta. Control de qualitat i logística des dels centres de producció. Maquetació i compaginació de textos de llibres. Disseny i preparació de cobertes. Atenció al client i comunicació amb els autors. Venda de llibres a punts de venda. Organització desdeveniments i presentacions.",
+      "slug": "responsable-produccio-grafica-maquetador"
+    },
+    {
+      "posicio": "Becari de Desenvolupament Web",
+      "empresa": "wwwarcelona",
+      "data": "2024",
+      "descripcio": "Disseny, maquetació i programació de webs amb Wordpress. Anàlisi i correcció de projectes web.",
+      "slug": "becari-desenvolupament-web"
+    }
+  ],
+  "aficions": [
+    "Història",
+    "Natura",
+    "Cinema",
+    "Videojocs",
+    "Comuptació"
+  ]
+}
