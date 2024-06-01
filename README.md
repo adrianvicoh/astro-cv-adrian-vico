@@ -1,6 +1,6 @@
 # CV Adrián Vico
 
-This is de first versión of CV Adrián Vico with Astro
+This is the first versión of CV Adrián Vico with Astro
 
 # Astro Starter Kit: Minimal
 
