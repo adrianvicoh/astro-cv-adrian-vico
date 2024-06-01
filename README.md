@@ -1,6 +1,6 @@
 # CV Adrián Vico
 
-This is the first versión of the webssite of CV Adrián Vico with Astro and Bootstrap, and deployed on Netlify
+This is the first versión of the website of CV Adrián Vico with Astro and Bootstrap, and deployed on Netlify
 
 Published website: https://adrianvico.netlify.app/
 
